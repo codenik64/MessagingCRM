@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingCRM", "MessagingCRM\MessagingCRM.csproj", "{B8E62C2A-6448-4634-99AD-CCD830C56444}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingCRM.Tests", "MessagingCRM.Tests\MessagingCRM.Tests.csproj", "{9DB07C67-9A27-475E-89BC-D8FEC3369F16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingCRM.Business.Intelligence", "MessagingCRM.Business.Intelligence\MessagingCRM.Business.Intelligence.csproj", "{C9A8FF0E-B9D3-4B6C-89C4-8B846DAB90F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingCRM.Business.Intelligence.Models", "MessagingCRM.Business.Intelligence.Models\MessagingCRM.Business.Intelligence.Models.csproj", "{4998056E-B9A2-4B4B-A232-15E284A6C46E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingCRM.Customs.Helpers", "MessagingCRM.Customs.Helpers\MessagingCRM.Customs.Helpers.csproj", "{C2973920-3E05-4652-8E9D-599F6F3D7EE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingCRM.DataStore.Entities", "MessagingCRM.DataStore.Entities\MessagingCRM.DataStore.Entities.csproj", "{628EFC5A-D86E-4170-9D25-1D446FE5E1E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingCRM.DataStore.Entities.Identity", "MessagingCRM.DataStore.Entities.Identity\MessagingCRM.DataStore.Entities.Identity.csproj", "{D35DA375-2A60-417A-A7C7-B08244E5B4F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MessagingCRM Web Module", "MessagingCRM Web Module", "{1580BB55-8FEE-44D8-AA8C-7D479C52FB4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MessagingCRM Intelligence Module", "MessagingCRM Intelligence Module", "{9B1FBA88-32A1-4D15-B33B-EE889B558D28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MessagingCRM Customs Module", "MessagingCRM Customs Module", "{71F05385-8130-4D07-87DC-168261417E4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MessagingCRM DataAccess Module", "MessagingCRM DataAccess Module", "{F274892C-E08E-45CE-8082-05A86A461C0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MessagingCRM Test Module", "MessagingCRM Test Module", "{8131EE7C-97B0-41D4-BF02-2308EEF9E293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingCRM.Business.Intelligence.Interfaces", "MessagingCRM.Business.Intelligence.Interfaces\MessagingCRM.Business.Intelligence.Interfaces.csproj", "{3B98DF66-EE9B-4532-A3CA-4B5D19F00B68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8E62C2A-6448-4634-99AD-CCD830C56444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8E62C2A-6448-4634-99AD-CCD830C56444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8E62C2A-6448-4634-99AD-CCD830C56444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8E62C2A-6448-4634-99AD-CCD830C56444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DB07C67-9A27-475E-89BC-D8FEC3369F16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DB07C67-9A27-475E-89BC-D8FEC3369F16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DB07C67-9A27-475E-89BC-D8FEC3369F16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DB07C67-9A27-475E-89BC-D8FEC3369F16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9A8FF0E-B9D3-4B6C-89C4-8B846DAB90F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9A8FF0E-B9D3-4B6C-89C4-8B846DAB90F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9A8FF0E-B9D3-4B6C-89C4-8B846DAB90F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9A8FF0E-B9D3-4B6C-89C4-8B846DAB90F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4998056E-B9A2-4B4B-A232-15E284A6C46E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4998056E-B9A2-4B4B-A232-15E284A6C46E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4998056E-B9A2-4B4B-A232-15E284A6C46E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4998056E-B9A2-4B4B-A232-15E284A6C46E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2973920-3E05-4652-8E9D-599F6F3D7EE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2973920-3E05-4652-8E9D-599F6F3D7EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2973920-3E05-4652-8E9D-599F6F3D7EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2973920-3E05-4652-8E9D-599F6F3D7EE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{628EFC5A-D86E-4170-9D25-1D446FE5E1E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{628EFC5A-D86E-4170-9D25-1D446FE5E1E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{628EFC5A-D86E-4170-9D25-1D446FE5E1E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{628EFC5A-D86E-4170-9D25-1D446FE5E1E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D35DA375-2A60-417A-A7C7-B08244E5B4F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D35DA375-2A60-417A-A7C7-B08244E5B4F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D35DA375-2A60-417A-A7C7-B08244E5B4F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D35DA375-2A60-417A-A7C7-B08244E5B4F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B98DF66-EE9B-4532-A3CA-4B5D19F00B68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B98DF66-EE9B-4532-A3CA-4B5D19F00B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B98DF66-EE9B-4532-A3CA-4B5D19F00B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B98DF66-EE9B-4532-A3CA-4B5D19F00B68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B8E62C2A-6448-4634-99AD-CCD830C56444} = {1580BB55-8FEE-44D8-AA8C-7D479C52FB4A}
+		{9DB07C67-9A27-475E-89BC-D8FEC3369F16} = {8131EE7C-97B0-41D4-BF02-2308EEF9E293}
+		{C9A8FF0E-B9D3-4B6C-89C4-8B846DAB90F2} = {9B1FBA88-32A1-4D15-B33B-EE889B558D28}
+		{4998056E-B9A2-4B4B-A232-15E284A6C46E} = {9B1FBA88-32A1-4D15-B33B-EE889B558D28}
+		{C2973920-3E05-4652-8E9D-599F6F3D7EE2} = {71F05385-8130-4D07-87DC-168261417E4D}
+		{628EFC5A-D86E-4170-9D25-1D446FE5E1E3} = {F274892C-E08E-45CE-8082-05A86A461C0B}
+		{D35DA375-2A60-417A-A7C7-B08244E5B4F8} = {F274892C-E08E-45CE-8082-05A86A461C0B}
+		{3B98DF66-EE9B-4532-A3CA-4B5D19F00B68} = {9B1FBA88-32A1-4D15-B33B-EE889B558D28}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2B9C3FA-93DA-471F-9844-CBF09C919511}
+	EndGlobalSection
+EndGlobal
